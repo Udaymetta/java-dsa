@@ -10,7 +10,7 @@ public class DoublyMain {
 
         list.printList();
         System.out.println(list.size());
-//        System.out.println(list.isEmpty());
+        System.out.println(list.isEmpty());
         list.removeFromFront();
         list.printList();
         System.out.println(list.size());

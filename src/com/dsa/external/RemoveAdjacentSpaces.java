@@ -1,11 +1,11 @@
 package com.dsa.external;
 
-public class Space {
+public class RemoveAdjacentSpaces {
 
     public static void main(String[] args) {
-        String s = " I    am     rasheed";
+        String s = " I    am     Uday Kiran";// Output = I am Uday Kiran
 
-        char c[] = s.toCharArray();
+        char[] c = s.toCharArray();
         StringBuilder n = new StringBuilder();
         for(int i=0; i < c.length;i++){//      I am
             if(c[i] == ' ' && c[i+1] ==' '){
@@ -14,8 +14,6 @@ public class Space {
             else
                 n.append(c[i]);
         }
-//        char m = 'l';
         System.out.println(n.toString().trim());
-
     }
 }

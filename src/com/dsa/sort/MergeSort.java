@@ -11,7 +11,8 @@ public class MergeSort {
         mergeSort(arr, 0, arr.length-1);
         Arrays.stream(arr).forEach(System.out::print);
     }
-
+//  Time Complexity = O(n log n) - Logarithmic
+//  Space Complexity = O(n) - Linear
     private static void mergeSort(int[] arr, int l, int r) {
         if(l < r){
             int mid = (l + r)/2;

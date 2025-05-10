@@ -4,8 +4,8 @@ import java.util.EmptyStackException;
 
 public class StackHandler {
 
-    Integer[] stack;//1,2,3,4,5
-    int top;//5
+    Integer[] stack;
+    int top;
 
     public StackHandler(int capacity){
         stack = new Integer[capacity];

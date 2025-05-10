@@ -12,11 +12,6 @@ public class QueueHandler {
     public QueueHandler(int capacity){
         queue = new Integer[capacity];
     }
-//    0-a
-//    1- b
-//    2- c
-//    3-d
-//    4- e
 
     public void add(int val){
         if(size() == queue.length -1){

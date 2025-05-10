@@ -3,8 +3,8 @@ package com.dsa.stack;
 public class StackMain {
 
     public static void main(String[] args) {
-//        useStack();
-        useLinkedStack();
+        useStack();// self-implemented
+        useLinkedStack();// used the linkedList
     }
 
     private static void useStack(){
@@ -32,7 +32,7 @@ public class StackMain {
         stack.push("4");
 
         System.out.println(stack.peek());
-//
+
         System.out.println(stack.pop());
 
         stack.printStack();
